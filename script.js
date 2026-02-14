@@ -107,7 +107,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     setTimeout(() => {
     document.body.appendChild(bounceImage);
     startBouncing(bounceImage);
-    }, 3000); // 3000ms = 3 giây
+    }, 5000); // 5000ms = 5 giây
   
     confetti({
       particleCount: 150,
@@ -157,6 +157,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   }
 
   
+
 
 
 
