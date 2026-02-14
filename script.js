@@ -11,7 +11,7 @@ let noClickCount = 0;
 let buttonHeight = 48;
 let buttonWidth = 80;
 let fontSize = 20;
-const imagePaths = ['./images/image1.gif','./images/image2.gif','./images/image3.gif','./images/image4.gif','./images/image5.gif','./images/image6.gif','./images/image7.gif'];
+const imagePaths = ['./images/image1.gif','./images/image2.gif','./images/image3.gif','./images/image4.gif','./images/image5.jpeg','./images/image6.gif','./images/image7.gif'];
 
 //sound
 function playSound(soundPath) {const audio = new Audio(soundPath); audio.play();}
@@ -156,5 +156,6 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   }
 
   
+
 
 
