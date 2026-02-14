@@ -42,7 +42,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   
   //no button
   noButton.addEventListener("click", () => {
-    playSound('./sounds/click.mp3');
+    playSound('./sound/click.mp3');
     if (noClickCount < 4) {
       noClickCount++;
       imageDisplay.src = imagePaths[noClickCount] || "./images/image1.gif";
@@ -156,3 +156,4 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   }
 
   
+
